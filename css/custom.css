@@ -1,0 +1,71 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 20px;
+    height: 820px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav {
+	font-size: 13px;
+    color: blue;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/home-photo.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+    margin-bottom: -30px;
+}
+
+.jumbotron h1 {
+    font-weight: 100;
+	margin-top: 220px;
+	margin-bottom: 352px;
+}
+
+.jumbotron p {
+    font-weight: 100;
+    margin-top: -352px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+}

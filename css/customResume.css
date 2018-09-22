@@ -1,0 +1,101 @@
+/* Move down content because navbar is 50px tall */
+body {
+    padding-top: 20px;
+    height: 820px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav {
+	font-size: 13px;
+    color: blue;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/temp.png');
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #222;
+    background-size: cover;
+	color: white;
+    margin-bottom: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+    font-weight: 10;
+	margin-top: 5px;
+    text-align: right;
+    margin-right: -70px;
+}
+
+.jumbotron h2 {
+    font-size: 13px;
+    font-weight: 10;
+    margin-top: 0px;
+    margin-right: -70px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.jumbotron h3 {
+    font-size: 23px;
+    font-weight: 50;
+    padding-left: -50px;
+    text-align: left;
+}
+
+.jumbotron h4 {
+    font-size: 15px;
+    font-weight: 5000;
+    padding-left: -50px;
+    text-align: left;
+    font-weight: 15px;
+}
+
+.jumbotron p {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 100;
+    padding-left: -50px;
+    margin-top: 0px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+}
