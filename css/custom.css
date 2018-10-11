@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 20px;
-    height: 820px;
+    height: 750px;
 }
 
 ul.nav, .jumbotron h1 {

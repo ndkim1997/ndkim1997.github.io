@@ -1,0 +1,23 @@
+/* Move down content because navbar is 50px tall */
+body {
+    padding-top: 20px;
+    height: 1000px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav {
+	font-size: 13px;
+    color: blue;
+}
+
+.jumbotron {
+	text-align: left-align;
+	background-image: url('../images/odesza.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

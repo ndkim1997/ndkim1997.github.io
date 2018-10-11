@@ -1,13 +1,13 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 20px;
-    height: 820px;
+    height: 750px;
 }
 
 ul.nav, .jumbotron h1 {
 	font-family: 'Arvo', courier, serif;
 }
-u
+
 ul.nav {
 	font-size: 13px;
     color: blue;
